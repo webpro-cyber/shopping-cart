@@ -60,7 +60,7 @@ function itemPlusFunTwo() {
 function itemMinusFun() {
   valueOne--;
   if (itemRead[0].value <= 1) {
-    alert("You can not put value under 0");
+    alert("You can not put value under 1");
   } else {
     itemRead[0].value = valueOne;
     const basePrice = 1219;
@@ -86,7 +86,7 @@ function itemMinusFun() {
 function itemMinusFunTwo() {
   valueTwo--;
   if (itemRead[1].value <= 1) {
-    alert("You can not put value under 0");
+    alert("You can not put value under 1");
   } else {
     itemRead[1].value = valueTwo;
     const basePrice = 59;
